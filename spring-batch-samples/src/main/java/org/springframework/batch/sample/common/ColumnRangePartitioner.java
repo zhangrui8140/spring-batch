@@ -29,7 +29,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * Simple minded partitioner for a range of values of a column in a database
  * table. Works best if the values are uniformly distributed (e.g.
  * auto-generated primary key values).
- *
+ * 简单的分区程序，用于数据库表中列的值范围。 如果值分布均匀（例如自动生成的主键值），则效果最好。
  * @author Dave Syer
  *
  */
